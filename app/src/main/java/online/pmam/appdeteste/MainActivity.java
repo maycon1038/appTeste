@@ -1,8 +1,11 @@
 package online.pmam.appdeteste;
 
+import android.content.res.Configuration;
 import android.os.Bundle;
 
 import com.google.android.material.snackbar.Snackbar;
+import com.msm.themes.BaseActivity;
+import com.msm.themes.ThemeUtil;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -19,13 +22,14 @@ import online.pmam.appdeteste.databinding.ActivityMainBinding;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        ThemeUtil.setMyTheme(this, ThemeUtil.THEME_GREEN_DARK);
         super.onCreate(savedInstanceState);
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
@@ -40,9 +44,20 @@ public class MainActivity extends AppCompatActivity {
         binding.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+              /*  Snackbar.make(view, "Substitua por sua própria ação", Snackbar.LENGTH_LONG)
                         .setAnchorView(R.id.fab)
-                        .setAction("Action", null).show();
+                        .setAction("Action", null).show();*/
+                int currentNightMode = getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK;
+                switch (currentNightMode) {
+                    case Configuration.UI_MODE_NIGHT_NO:
+                        ThemeUtil.setMode(MainActivity.this, true);
+                        recreate();
+                        break;
+                    case Configuration.UI_MODE_NIGHT_YES:
+                        ThemeUtil.setMode(MainActivity.this, false);
+                        recreate();
+                        break;
+                }
             }
         });
     }
