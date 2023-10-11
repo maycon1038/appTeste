@@ -114,7 +114,7 @@ public class MainActivity extends BaseActivity {
         FirebaseApp.initializeApp(ctx);
         FirebaseAppCheck firebaseAppCheck = FirebaseAppCheck.getInstance();
         firebaseAppCheck.installAppCheckProviderFactory(DebugAppCheckProviderFactory.getInstance());
-  /*      firebaseAppCheck.installAppCheckProviderFactory(PlayIntegrityAppCheckProviderFactory.getInstance());*/
+        firebaseAppCheck.installAppCheckProviderFactory(PlayIntegrityAppCheckProviderFactory.getInstance());
 
 
         tg.LogD(new Exception(), getTokenFCM(ctx));

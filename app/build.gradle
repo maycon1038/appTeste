@@ -9,7 +9,7 @@ android {
         applicationId "online.pmam.appdeteste"
         minSdk 23
         targetSdk 33
-        versionCode 4
+        versionCode 5
         versionName "1.0"
         multiDexEnabled = true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -28,6 +28,7 @@ android {
     buildFeatures {
         viewBinding true
     }
+    ndkVersion '22.1.7171670'
 }
 
 dependencies {
