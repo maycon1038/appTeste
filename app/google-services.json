@@ -1,0 +1,456 @@
+{
+  "project_info": {
+    "project_number": "114896466614",
+    "firebase_url": "https://copmam-c74a2.firebaseio.com",
+    "project_id": "copmam-c74a2",
+    "storage_bucket": "copmam-c74a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114896466614:android:f5728d2ced0919db2dac17",
+        "android_client_info": {
+          "package_name": "br.com.pmam.copmam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114896466614-6qhludu6heqp0ol29pi08n5ujfh7athk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.pmam.copmam",
+            "certificate_hash": "d9cd1e47aca5536d64a80033719f882a298c06be"
+          }
+        },
+        {
+          "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ5zd5K8ojnjd639dEaUhel79HUwfKcBc"
+        },
+        {
+          "current_key": "AIzaSyD4anr1gLxqZzK3KFptiI46LFK5l-eoRjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "114896466614-20mujln7d55p7gtkodc4eh6jb6hsro1j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.SISPMAM.SISPMAM-IOS"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114896466614:android:f3647ff93c0ead5b2dac17",
+        "android_client_info": {
+          "package_name": "com.pmam.librarycecopom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114896466614-i68rvouo7i35i6e1p4uo8851okdpinvn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pmam.librarycecopom",
+            "certificate_hash": "a1e91fc9c9d328bb3d945321ed1a9b348a4ceec8"
+          }
+        },
+        {
+          "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ5zd5K8ojnjd639dEaUhel79HUwfKcBc"
+        },
+        {
+          "current_key": "AIzaSyD4anr1gLxqZzK3KFptiI46LFK5l-eoRjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "114896466614-20mujln7d55p7gtkodc4eh6jb6hsro1j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.SISPMAM.SISPMAM-IOS"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114896466614:android:51d8f66618179edc2dac17",
+        "android_client_info": {
+          "package_name": "com.pmam.librarycheckcidadao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ5zd5K8ojnjd639dEaUhel79HUwfKcBc"
+        },
+        {
+          "current_key": "AIzaSyD4anr1gLxqZzK3KFptiI46LFK5l-eoRjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "114896466614-20mujln7d55p7gtkodc4eh6jb6hsro1j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.SISPMAM.SISPMAM-IOS"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114896466614:android:1947eca08541aaae2dac17",
+        "android_client_info": {
+          "package_name": "com.pmam.librarychecklistviaturas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ5zd5K8ojnjd639dEaUhel79HUwfKcBc"
+        },
+        {
+          "current_key": "AIzaSyD4anr1gLxqZzK3KFptiI46LFK5l-eoRjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "114896466614-20mujln7d55p7gtkodc4eh6jb6hsro1j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.SISPMAM.SISPMAM-IOS"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114896466614:android:c2969b214455053a2dac17",
+        "android_client_info": {
+          "package_name": "com.pmam.librarycheckveiculov2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ5zd5K8ojnjd639dEaUhel79HUwfKcBc"
+        },
+        {
+          "current_key": "AIzaSyD4anr1gLxqZzK3KFptiI46LFK5l-eoRjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "114896466614-20mujln7d55p7gtkodc4eh6jb6hsro1j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.SISPMAM.SISPMAM-IOS"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114896466614:android:677b602b9b1c01752dac17",
+        "android_client_info": {
+          "package_name": "com.pmam.libraryescalaservico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ5zd5K8ojnjd639dEaUhel79HUwfKcBc"
+        },
+        {
+          "current_key": "AIzaSyD4anr1gLxqZzK3KFptiI46LFK5l-eoRjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "114896466614-20mujln7d55p7gtkodc4eh6jb6hsro1j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.SISPMAM.SISPMAM-IOS"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114896466614:android:79d4fb2e389f68ba2dac17",
+        "android_client_info": {
+          "package_name": "com.pmam.libraryloginsispmam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ5zd5K8ojnjd639dEaUhel79HUwfKcBc"
+        },
+        {
+          "current_key": "AIzaSyD4anr1gLxqZzK3KFptiI46LFK5l-eoRjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "114896466614-20mujln7d55p7gtkodc4eh6jb6hsro1j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.SISPMAM.SISPMAM-IOS"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114896466614:android:d139064793bb3dee2dac17",
+        "android_client_info": {
+          "package_name": "com.pmam.libraryprodutividade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ5zd5K8ojnjd639dEaUhel79HUwfKcBc"
+        },
+        {
+          "current_key": "AIzaSyD4anr1gLxqZzK3KFptiI46LFK5l-eoRjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "114896466614-20mujln7d55p7gtkodc4eh6jb6hsro1j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.SISPMAM.SISPMAM-IOS"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114896466614:android:a1748029956eb3df2dac17",
+        "android_client_info": {
+          "package_name": "com.pmam.libraryseg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ5zd5K8ojnjd639dEaUhel79HUwfKcBc"
+        },
+        {
+          "current_key": "AIzaSyD4anr1gLxqZzK3KFptiI46LFK5l-eoRjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "114896466614-20mujln7d55p7gtkodc4eh6jb6hsro1j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.SISPMAM.SISPMAM-IOS"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114896466614:android:ebd6789ed6b0636a2dac17",
+        "android_client_info": {
+          "package_name": "com.pmam.sispmamionic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ5zd5K8ojnjd639dEaUhel79HUwfKcBc"
+        },
+        {
+          "current_key": "AIzaSyD4anr1gLxqZzK3KFptiI46LFK5l-eoRjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "114896466614-20mujln7d55p7gtkodc4eh6jb6hsro1j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.SISPMAM.SISPMAM-IOS"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114896466614:android:a2bc5443d9857e082dac17",
+        "android_client_info": {
+          "package_name": "online.pmam.appdeteste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ5zd5K8ojnjd639dEaUhel79HUwfKcBc"
+        },
+        {
+          "current_key": "AIzaSyD4anr1gLxqZzK3KFptiI46LFK5l-eoRjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114896466614-pcj0f47379l892eqpqiqfjqcojsb6huv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "114896466614-20mujln7d55p7gtkodc4eh6jb6hsro1j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.SISPMAM.SISPMAM-IOS"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

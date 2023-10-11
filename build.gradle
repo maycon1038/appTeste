@@ -1,4 +1,44 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-plugins {
-id 'com.android.application' version '8.1.1' apply false
+// Arquivo de construção de nível superior onde você pode adicionar opções de configuração comuns a todos os subprojetos / módulos.
+apply plugin: 'maven-publish'
+
+def githubProperties = new Properties()
+githubProperties.load(new FileInputStream(rootProject.file("github.properties"))) //Set env variable GPR_USER & GPR_API_KEY if not adding a properties file
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.0.2'
+        classpath 'com.google.gms:google-services:4.4.0'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.9'
+        classpath 'com.google.code.gson:gson:2.10.1'
+    }
+}
+
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        maven { url  "https://dl.bintray.com/blazei/maven" }
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/DTIPMAM/LibraryLoginSISPMAM")
+            url = uri("https://maven.pkg.github.com/DTIPMAM/LibraryProdutividade")
+            credentials {
+                username = githubProperties['gpr.usr'] ?: System.getenv("GPR_USER")
+                password = githubProperties['gpr.key'] ?: System.getenv("GPR_API_KEY")
+            }
+        }
+    }
+}
+
+tasks.register('clean', Delete) {
+    delete rootProject.buildDir
 }
